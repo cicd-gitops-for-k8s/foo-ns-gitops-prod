@@ -52,7 +52,7 @@ spec:
           valueFrom:
             fieldRef:
               fieldPath: spec.serviceAccountName
-        image: us-central1-docker.pkg.dev/sp1-21-gateway/gitops/foo-app@sha256:db0e1e5c144205aa42e0c5186048900272c70e6721af59672ccf6baff037505c
+        image: us-central1-docker.pkg.dev/sp1-21-gateway/gitops/foo-app@sha256:165b748bc5a69d15c60d13a8c41b0066232dec9e20d37aea6531579f7a7af972
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
